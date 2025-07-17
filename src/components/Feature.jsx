@@ -114,7 +114,7 @@ const Feature = () => (
 
       <BentoTilt className="border-hsla relative mb-7 h-96 w-full overflow-hidden rounded-md md:h-[65vh]">
         <BentoCard
-          src="videos/feature-1.mp4"
+          src="/award/videos/feature-1.mp4"
           title={
             <>
               radia<b>n</b>t
@@ -125,10 +125,10 @@ const Feature = () => (
         />
       </BentoTilt>
 
-      <div className="grid h-[135vh] w-full grid-cols-2 grid-rows-3 gap-7">
-        <BentoTilt className="bento-tilt_1 row-span-1 md:col-span-1 md:row-span-2">
+      <div className="grid h-[100vh] w-full grid-cols-1 grid-rows-2 md:grid-cols-4 md:grid-rows-2 gap-7">
+        <BentoTilt className="bento-tilt_1 row-span-1 md:col-span-1 md:col-start-1 md:row-span-2 md:row-start-1">
           <BentoCard
-            src="videos/feature-2.mp4"
+            src="/award/videos/feature-2.mp4"
             title={
               <>
                 zig<b>m</b>a
@@ -139,9 +139,9 @@ const Feature = () => (
           />
         </BentoTilt>
 
-        <BentoTilt className="bento-tilt_1 row-span-1 ms-32 md:col-span-1 md:ms-0">
+        <BentoTilt className="bento-tilt_ 1 row-span-1 ms-32 md:col-span-2 md:ms-0 md:col-start-3 md:row-start-1 md:row-span-1">
           <BentoCard
-            src="videos/feature-3.mp4"
+            src="/award/videos/feature-3.mp4"
             title={
               <>
                 n<b>e</b>xus
@@ -152,9 +152,9 @@ const Feature = () => (
           />
         </BentoTilt>
 
-        <BentoTilt className="bento-tilt_1 me-14 md:col-span-1 md:me-0">
+        <BentoTilt className="bento-tilt_1 me-14 md:row-span-1 md:row-start-2 md:me-0">
           <BentoCard
-            src="videos/feature-4.mp4"
+            src="/award/videos/feature-4.mp4"
             title={
               <>
                 az<b>u</b>l
@@ -165,7 +165,9 @@ const Feature = () => (
           />
         </BentoTilt>
 
-        <BentoTilt className="bento-tilt_2">
+      </div>
+      <div className="grid h-[50vh] w-full grid-rows-2 sm:grid-cols-2 sm:grid-rows-1 gap-7 mt-7">
+        <BentoTilt className="bento-tilt_2 sm:col-span-2 sm:row-start-1 sm:row-span-1 md:order-4 md:col-start-1 md:row-start-3 md:col-span-1 md:row-span-1">
           <div className="flex size-full flex-col justify-between bg-violet-300 p-5">
             <h1 className="bento-title special-font max-w-64 text-black">
               M<b>o</b>re co<b>m</b>ing s<b>o</b>on.
@@ -175,9 +177,9 @@ const Feature = () => (
           </div>
         </BentoTilt>
 
-        <BentoTilt className="bento-tilt_2">
+        <BentoTilt className="bento-tilt_2 md:order-last md:col-start-2 md:row-start-3 md:col-span-1 md:row-span-1">
           <video
-            src="videos/feature-5.mp4"
+            src="/award/videos/feature-5.mp4"
             loop
             muted
             autoPlay
